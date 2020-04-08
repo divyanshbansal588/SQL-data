@@ -7,7 +7,7 @@
     <Name>COMMSCS_Database</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{7a55594f-9779-43d7-a718-a1659212a221}</ProjectGuid>
+    <ProjectGuid>{37bee4ed-cb86-43cd-91de-5e324e837870}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>

@@ -7,7 +7,7 @@
     <Name>COMMMSG_Database</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{585a8cee-af8e-4e81-a5a8-4c416482c5a8}</ProjectGuid>
+    <ProjectGuid>{b1a72ac8-a2a3-412d-b637-e9f0728229f7}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
