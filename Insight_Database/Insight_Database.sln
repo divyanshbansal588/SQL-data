@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.960
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Insight_Database", "Insight_Database\Insight_Database.sqlproj", "{ECA3E552-DD60-4C7A-9F72-01D1560793E9}"
-EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "COMMMSG_Database", "COMMMSG_Database\COMMMSG_Database.sqlproj", "{B1A72AC8-A2A3-412D-B637-E9F0728229F7}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "COMMPROD_Database", "COMMPROD_Database\COMMPROD_Database.sqlproj", "{506DBB3E-0668-4BFD-A87B-97AB6D5D007F}"
