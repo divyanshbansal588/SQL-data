@@ -57,9 +57,42 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="Security\" />
     <Folder Include="Scripts\" />
   </ItemGroup>
   <ItemGroup>
+    <Build Include="dbo\Tables\scsActivityLog.sql" />
+    <Build Include="dbo\Tables\scsApplication.sql" />
+    <Build Include="dbo\Tables\scsApplicationTarget.sql" />
+    <Build Include="dbo\Tables\scsCampaign.sql" />
+    <Build Include="dbo\Tables\scsCampaignSampleData.sql" />
+    <Build Include="dbo\Tables\scsCampaignSampleDataItem.sql" />
+    <Build Include="dbo\Tables\scsCampaignTarget.sql" />
+    <Build Include="dbo\Tables\scsCompoundFilter.sql" />
+    <Build Include="dbo\Tables\scsDataSource.sql" />
+    <Build Include="dbo\Tables\scsError.sql" />
+    <Build Include="dbo\Tables\scsField.sql" />
+    <Build Include="dbo\Tables\scsField_ValueList.sql" />
+    <Build Include="dbo\Tables\scsFilter.sql" />
+    <Build Include="dbo\Tables\scsFilterCriteria.sql" />
+    <Build Include="dbo\Tables\scsPackage.sql" />
+    <Build Include="dbo\Tables\scsPackageFilter.sql" />
+    <Build Include="dbo\Tables\scsPackageInsert.sql" />
+    <Build Include="dbo\Tables\scsScheme.sql" />
+    <Build Include="dbo\Tables\scsSession.sql" />
+    <Build Include="dbo\Tables\scsTargetMessage.sql" />
+    <Build Include="dbo\Tables\scsTargetMessageFilter.sql" />
+    <Build Include="dbo\Tables\scsValueList.sql" />
+    <Build Include="dbo\Tables\scsValueListItem.sql" />
+    <Build Include="Security\demoadminuser.sql" />
+    <Build Include="Security\demodevuser.sql" />
+    <Build Include="Security\FrameworkApplication.sql" />
+    <Build Include="Security\OPERATIONS_tsnowden2.sql" />
+    <Build Include="Security\SERVICES_Abhishek.Sahu.sql" />
+    <Build Include="Security\SERVICES_Vikas.Semra1.sql" />
+    <Build Include="Security\RoleMemberships.sql" />
     <None Include="Scripts\ScriptsIgnoredOnImport.sql" />
   </ItemGroup>
 </Project>
